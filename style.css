@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  background-color: red;
+  border: solid 1px black;
+  position: fixed;
+  width: 100%;
+  height: 45px;
+}
+
+#navbar-pad {
+  width: 100%;
+  height: 45px;
+  border: solid 1px black;
+}
+
+.container-content {
+  background-color: #999;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+/*Clearfix*/
+.container-content::after { 
+   content: "";
+   display: block; 
+   clear: both;
+}
+
+.subcontainer-content {
+  float: left;
+  clear: left;
+  width: 854px;
+  border: solid 1px black;
+  margin: 5px;
+}
+
+#video {
+  height: 480px;
+  background-color: black;
+  color: white;
+}
+
+#social-data {
+  height: 150px;
+}
+
+#video-info {
+  height: 125px;
+}
+
+#comments {
+  height: 1200px;
+}
+
+.sidebar-right {
+  background-color: yellow;
+  border: solid 1px black;
+  float: right;
+  width: 416px;
+  height: 2000px;
+  margin: 10px;
+}
+
+.sidebar-container {
+  background-color: goldenrod;
+  height: 100px;
+}
+
+.footer {
+  background-color: green;
+  border: solid 1px black;
+  height:30px;
+  width:100%;
+}
